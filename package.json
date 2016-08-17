@@ -2,7 +2,7 @@
   "name": "plain-object-compare",
   "version": "0.0.1",
   "description": "Compares two objects, matching regular expressions against strings, and recursively matching objects.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register tests",
     "prepublish": "babel src -d dist",
