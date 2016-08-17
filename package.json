@@ -1,0 +1,37 @@
+{
+  "name": "plain-object-compare",
+  "version": "0.0.1",
+  "description": "Compares two objects, matching regular expressions against strings, and recursively matching objects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register tests",
+    "prepublish": "babel src -d dist",
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noyesa/plain-object-compare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noyesa/plain-object-compare/issues"
+  },
+  "homepage": "https://github.com/noyesa/plain-object-compare#readme",
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.1",
+    "mocha": "^3.0.2"
+  }
+}
