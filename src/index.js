@@ -6,7 +6,8 @@ import isPlainObject from 'lodash.isplainobject';
  *
  * @param {object} expectedObject The object containing expected property values
  * @param {object} actualObject The object containing the actual property values
- * @param {function(*,*):boolean} comparator The predicate that compares each property
+ * @param {function(*, *):boolean} comparator The predicate that compares each property
+ * @returns {boolean} Do the property values of the objects match?
  */
 function compareObjects(expectedObject, actualObject, comparator) {
   const keys = Object.keys(expectedObject);
